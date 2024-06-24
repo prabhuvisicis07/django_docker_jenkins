@@ -10,7 +10,7 @@ pipeline {
             steps {
                 checkout([$class: 'GitSCM',
                           branches: [[name: '*/main']],
-                          userRemoteConfigs: [[url: 'https://github.com/yourusername/your-django-repo.git']]
+                          userRemoteConfigs: [[url: 'https://github.com/prabhuvisicis07/django_docker_jenkins.git']]
                 ])
             }
         }
